@@ -1,0 +1,7 @@
+v 4
+file . "SmartTrafficLights_tb.vhdl" "a8a411be8325599f40b40073cc406d0ea09de7f8" "20250416113448.493":
+  entity smarttrafficlight_tb at 1( 0) + 0 on 29;
+  architecture behavioral of smarttrafficlight_tb at 8( 135) + 0 on 30;
+file . "SmartTrafficLights.vhdl" "cf2125d904712a38e938c3005ffdc0691c4db73a" "20250416113445.483":
+  entity smarttrafficlight at 1( 0) + 0 on 27;
+  architecture behavioral of smarttrafficlight at 17( 414) + 0 on 28;

@@ -1,0 +1,7 @@
+v 4
+file . "Lights_tb.vhdl" "15825f86a617c7cb81be61ab61701e878768d155" "20250416111334.708":
+  entity lights_tb at 1( 0) + 0 on 123;
+  architecture behavioral of lights_tb at 8( 113) + 0 on 124;
+file . "Lights.vhdl" "e36d33667d21b3294df10c90a4d1a28384752ce4" "20250416111333.250":
+  entity lights at 1( 0) + 0 on 121;
+  architecture behavioral of lights at 17( 392) + 0 on 122;

@@ -1,0 +1,75 @@
+$date
+	Wed Jan 29 16:29:01 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module full_adder_tb $end
+$var wire 1 ! Sum $end
+$var wire 1 " Cout $end
+$var reg 1 # A $end
+$var reg 1 $ B $end
+$var reg 1 % Cin $end
+$scope module uut $end
+$var wire 1 # A $end
+$var wire 1 & AandB $end
+$var wire 1 ' AxorB $end
+$var wire 1 ( AxorBandCin $end
+$var wire 1 $ B $end
+$var wire 1 % Cin $end
+$var wire 1 " Cout $end
+$var wire 1 ! Sum $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#20
+1!
+1%
+#40
+1'
+0%
+1$
+#60
+1"
+0!
+1(
+1%
+#80
+0"
+1!
+0(
+0%
+0$
+1#
+#100
+1"
+0!
+1(
+1%
+#120
+0(
+0'
+1&
+0%
+1$
+#140
+1!
+1%
+#160

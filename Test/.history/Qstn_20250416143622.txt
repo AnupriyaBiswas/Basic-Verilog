@@ -1,0 +1,20 @@
+Write a VHDL code to implement this : 
+Smart Traffic Light System
+States  :
+    1. Red -> Stop
+    2. Green -> Go
+    3. Yellow -> Slow Down
+    4. PED_WAIT -> Pedestrian Request
+    5. PED_CROSS -> Pedestrian Crossing
+
+Transitions : 
+    1. Normal Cycle : Red -> Green -> Yellow -> Red
+    2. If pedestrian Presses button, go to PED_WAIT -> PED_CROSS -> RED
+
+
+ghdl -a SmartTrafficLight.vhd
+ghdl -a SmartTrafficLight_tb.vhd
+ghdl -e SmartTrafficLight_tb
+ghdl -r SmartTrafficLight_tb --stop-time=20ms
+ghdl -r SmartTrafficLight_tb --vcd=traffic.vcd --stop-time=20ms
+gtkwave traffic.vcd

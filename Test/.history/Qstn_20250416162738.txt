@@ -1,0 +1,26 @@
+Write a VHDL code to implement this : 
+Smart Traffic Light System
+States  :
+    1. Red -> Stop
+    2. Green -> Go
+    3. Yellow -> Slow Down
+    4. PED_WAIT -> Pedestrian Request
+    5. PED_CROSS -> Pedestrian Crossing
+
+Transitions : 
+    1. Normal Cycle : Red -> Green -> Yellow -> Red
+    2. If pedestrian Presses button, go to PED_WAIT -> PED_CROSS -> RED
+
+
+
+
+1. There should be a total of 5 States - RED, GREEN, YELLOW, PED_WAIT and PED_CROSS
+2. The normal cycle is RED -> GREEN -> YELLOW
+3. The gtkwave should have 5 lines - red, yellow, green, ped_request, ped_signal.
+4. when the pedestrian presses the button, the State changes to PED_WAIT for a little time.During this time, the ped_request signal should be 1.
+5. Then, the state changes to PED_CROSS during which the light turns red. During this time, both the ped_signal and the ped_request is 1.
+6. The PED_CROSS changes back to RED when the button is pressed again by the pedestrian. During the button press, the ped_request changes to 1 for a short while like before in step 4.
+7. The Normal Cycle cotinues.
+
+
+

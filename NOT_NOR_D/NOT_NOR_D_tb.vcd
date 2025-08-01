@@ -1,0 +1,55 @@
+$date
+	Wed Feb 05 16:29:09 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module NOT_NOR_D_tb $end
+$var wire 1 ! Q $end
+$var reg 1 " A $end
+$var reg 1 # Rst $end
+$var reg 1 $ clock $end
+$scope module uut $end
+$var wire 1 " A $end
+$var wire 1 # Rst $end
+$var wire 1 $ clock $end
+$var reg 1 ! Q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0$
+0#
+0"
+x!
+$end
+#5
+0!
+1$
+#10
+0$
+1#
+#15
+1$
+#20
+0$
+0#
+1"
+#25
+1!
+1$
+#30
+0!
+0$
+1#
+#35
+1$
+#40
+0$
